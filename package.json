@@ -1,0 +1,32 @@
+{
+  "homepage": "https://myusername.github.io/my-app",
+  "name": "to-do-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4",
+    "react": "^18.3.1",
+    "react-boxicons": "^0.0.28",
+    "react-dom": "^18.3.1"
+  }
+}

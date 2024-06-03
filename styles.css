@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+/* .wrapper {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+} */
+.wrapper {
+  border: 1px solid red;
+  padding: 32px;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: rgb(255, 240, 212);
+}
+.container {
+  /* border: 1px solid red; */
+  padding: 32px;
+  width: 800px;
+  min-height: 100vh;
+
+  background-color: rgb(255, 240, 212);
+}
+.title {
+  font-size: 42px;
+  line-height: 1.05;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.search-container {
+  display: flex;
+  width: 800px;
+  margin-bottom: 28px !important;
+  margin-left: 30px;
+}
+.search-field {
+  width: 800px;
+  height: 48px;
+
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  border-radius: 20px;
+  background-color: azure;
+}
+
+.search-button {
+  position: relative;
+  right: 50px;
+  height: 48px;
+  width: 200px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  padding: 8px 16px;
+
+  border-radius: 50px;
+  cursor: pointer;
+}
+.done-icon {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+li {
+  font-size: 18px;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  padding: 10px;
+  list-style: none;
+  border-radius: 5px;
+  flex: 1 1 auto;
+}
+.list-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  margin-bottom: 18px;
+  box-shadow: 0 1.6rem 2.8rem rgba(0, 0, 0, 0.1);
+  background-color: rgb(254, 217, 148);
+  justify-content: space-between;
+  border-radius: 9px;
+  width: 800px;
+}
+.list-item[contenteditable="true"] {
+  border: none;
+  background-color: #eee;
+  outline: none;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+.done-list {
+  display: flex;
+  align-items: center;
+}
+.edit-delete {
+  display: flex;
+  align-items: center;
+}
+.delete {
+  margin-left: 16px;
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+}
